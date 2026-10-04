@@ -1,0 +1,30 @@
+HIDROSUL PISCINAS — SITE (versão 1)
+===================================
+
+COMO ABRIR
+1. Descompacte a pasta.
+2. Dê dois cliques em index.html (abre no navegador, sem instalar nada).
+3. Para editar vendo as mudanças ao vivo: abra a pasta no VS Code e use a
+   extensão "Live Server" (botão direito em index.html > Open with Live Server).
+   Obs.: o mapa do Google e as fontes precisam de internet.
+
+ESTRUTURA
+index.html      conteúdo, textos e SEO
+css/style.css   visual (cores no topo, em :root)
+js/data.js      >>> DADOS DAS 3 UNIDADES, DEPOIMENTOS E REDES SOCIAIS <<<
+js/main.js      cards, mapa, formulário, WhatsApp flutuante, galeria
+assets/img/     logo, fachada da loja e fotos (Instagram e site oficial)
+
+EDITAR UMA UNIDADE (js/data.js)
+Cada unidade tem: nome, endereço, CEP, telefone, WhatsApp, e-mail, horário,
+região, link do Google Maps e coordenadas. Tudo no site (cards, mapa,
+formulário, botão flutuante e rodapé) é atualizado a partir desse arquivo.
+- email: vazio nas 3 unidades (não informado). Ao preencher, o botão "E-mail" aparece.
+- horario: preenchido só na Unidade Principal (site oficial). Candeias e Centro
+  mostram "Consulte pelo WhatsApp" até serem preenchidos.
+
+FONTES DAS INFORMAÇÕES
+- Instagram @hidrosulpiscinas (bio, publicações e legendas)
+- Linktree da bio (linktr.ee/hidrosulpiscinas): as 3 unidades, endereços, WhatsApps e mapas
+- Site oficial hidrosulpiscinas.com: nº 435, telefone, horário, serviços, Facebook
+- Google Maps das unidades (links do Linktree): avaliações usadas nos depoimentos
